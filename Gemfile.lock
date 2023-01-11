@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    avro (1.11.1)
+      multi_json (~> 1.0)
+    avro_turf (1.8.0)
+      avro (>= 1.7.7, < 1.12)
+      excon (~> 0.71)
+    debug (1.7.1)
+      irb (>= 1.5.0)
+      reline (>= 0.3.1)
+    excon (0.94.0)
+    io-console (0.6.0)
+    irb (1.6.2)
+      reline (>= 0.3.0)
+    multi_json (1.15.0)
+    reline (0.3.2)
+      io-console (~> 0.5)
+
+PLATFORMS
+  aarch64-linux
+  x86_64-darwin-20
+
+DEPENDENCIES
+  avro_turf (~> 1.8.0)
+  debug
+
+BUNDLED WITH
+   2.3.26

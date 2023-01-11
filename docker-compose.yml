@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  app:
+    container_name: avroturf-demo
+    build:
+      context: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/src
+      - gemdata:/usr/local/bundle
+
+volumes:
+  gemdata:
+    driver: local

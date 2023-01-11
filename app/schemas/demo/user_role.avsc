@@ -1,0 +1,19 @@
+{
+  "namespace": "demo",
+  "type": "record",
+  "name": "user_role",
+  "fields": [
+    {
+      "name": "scope",
+      "type": "demo.role_scope",
+      "default": "SELF"
+    },
+    {
+      "name": "permissions",
+      "type": {
+        "type": "array",
+        "items": "demo.role_permission"
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "namespace": "demo",
+  "type": "enum",
+  "name": "role_scope",
+  "symbols": ["SELF", "TEAM", "DEPARTMENT", "ORGANIZATION"]
+}
