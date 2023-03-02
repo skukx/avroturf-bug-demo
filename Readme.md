@@ -1,7 +1,7 @@
 # AvroTurf Bug Demo
 
 This repo is for demonstrating and issue with the
-[avroturf](https://github.com/dasch/avro_turf) ruby gem.
+[avroturf](https://github.com/dasch/avro_turf/issues/181) ruby gem.
 
 Whether schemas are loaded correctly or not highly depends on the order of files
 within the project.
